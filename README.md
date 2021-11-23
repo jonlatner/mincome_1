@@ -1,8 +1,3 @@
-# mincome_1
-Basic Income in a Small Town: Understanding the Elusive Effects on Work
-
-Replication files
-
 ## Introduction
 
 Repository for the codes used for the analyses of David Calnitsky &amp; Jonathan Latner (2017), "Basic Income in a Small Town: Understanding the Elusive Effects on Work."
