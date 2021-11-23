@@ -270,7 +270,8 @@ df_mincome <- df_mincome %>%
 
 # Earnings data ----
 # Error note: Small coding error
-# affects famno == 35723
+# means that 1 family is now included, but was not in the original paper
+# famno == 35723
 
 # Baseline
 df_mincome <- df_mincome %>%
