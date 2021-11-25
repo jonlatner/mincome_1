@@ -1,4 +1,4 @@
-# Mincome_1
+# mincome_calnitsky_latner_2017
 
 ## Introduction
 
