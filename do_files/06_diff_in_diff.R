@@ -21,7 +21,7 @@ library(gridExtra)
 library(Cairo)
 
 # FOLDERS - ADAPT THIS PATHWAY
-setwd("/Users/jonathanlatner/Documents/GitHub/mincome_1/")
+setwd("/Users/jonathanlatner/Documents/GitHub/mincome_calnitsky_latner_2017/")
 data_files = "data_files/"
 tables = "tables/"
 

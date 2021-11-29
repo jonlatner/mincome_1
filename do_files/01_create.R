@@ -15,7 +15,7 @@ rm(list=ls(all=TRUE))
 # load library
 
 # FOLDERS - ADAPT THIS PATHWAY
-setwd("/Users/jonathanlatner/Documents/GitHub/mincome_1/")
+setwd("/Users/jonathanlatner/Documents/GitHub/mincome_calnitsky_latner_2017/")
 data_files = "data_files/"
 support_files = "support_files/"
 
