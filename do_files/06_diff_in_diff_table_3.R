@@ -330,7 +330,7 @@ df_diff_2_com_control <- df_diff_2_com_control %>%
 
 rm(list=ls(pattern="table_diff_2_com"))
 
-# Create results table ----
+# Create results table 3 ----
 
 # please note: results differ slightly due to coding error in original paper
 # see "error note" in 02_clean.R file

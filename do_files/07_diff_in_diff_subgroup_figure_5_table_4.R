@@ -319,7 +319,7 @@ df_summary <- df_summary %>%
         ) %>%
         arrange(term,sitetreat_3,period,year,month)
 
-# Graph figure ----
+# Graph figure 5 ----
 
 df_graph <- df_summary
 
@@ -362,7 +362,7 @@ ggplot(data = df_graph, aes(x = ym, y = lmp_1_per, group = sitetreat_3, linetype
 
 ggsave(filename = paste0(graphs,"figure_5_diff_in_diff_subgroup.pdf"), plot = last_plot(), height = 8, width = 12, units = "in")
 
-# Summarize data for table ----
+# Summarize data for table 4 ----
 
 df_sitetreat_total <- df_mincome %>%
         group_by(sitetreat_3,famno) %>%
