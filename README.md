@@ -1,6 +1,6 @@
 # mincome_calnitsky_latner_2017
 
-[![DOI](https://doi.org/10.7910/DVN/YQDAEC)](https://doi.org/10.7910/DVN/YQDAEC)
+[![DOI:10.7910/DVN/YQDAEC](http://img.shields.io/badge/10.7910/DVN/YQDAEC.425840-B31B1B.svg)](https://doi.org/10.7910/DVN/YQDAEC)
 
 ## Introduction
 
