@@ -76,6 +76,15 @@ model_diff_2_com_1 <- lm_robust(lmp~sitetreat_3,data=subset(df_mincome, period =
 # diff 1: community effect (change)
 model_diff_2_com_change <- lm_robust(lmp~sitetreat_3 + period + sitetreat_3:period,data=subset(df_mincome, (sitetreat_3 == 2 | sitetreat_3 == 3)), se_type = "stata")
 
+# diff 1: experimental effect (baseline)
+model_diff_3_exp_0 <- lm_robust(lmp~sitetreat_3,data=subset(df_mincome, period == 0 & (sitetreat_3 == 1 | sitetreat_3 == 3)), se_type = "stata")
+
+# diff 1: experimental effect (study period)
+model_diff_3_exp_1 <- lm_robust(lmp~sitetreat_3,data=subset(df_mincome, period == 1 & (sitetreat_3 == 1 | sitetreat_3 == 3)), se_type = "stata")
+
+# diff 1: experimental effect (change)
+model_diff_3_exp_change <- lm_robust(lmp~sitetreat_3 + period + sitetreat_3:period,data=subset(df_mincome, (sitetreat_3 == 1 | sitetreat_3 == 3)), se_type = "stata")
+
 # Extract coefficients (b, se, p) ----
 
 # Baseline
